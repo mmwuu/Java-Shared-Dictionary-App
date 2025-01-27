@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="client.ClientGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2384e" class="javax.swing.JLabel" binding="wordLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Word: "/>
+        </properties>
+      </component>
+      <vspacer id="34e9c">
+        <constraints>
+          <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c80b0" class="javax.swing.JTextField" binding="wordField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="651a2" class="javax.swing.JLabel" binding="meaningsLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Meaning(s): Separate meanings with ';' "/>
+        </properties>
+      </component>
+      <component id="3bca0" class="javax.swing.JLabel" binding="systemLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="System:"/>
+        </properties>
+      </component>
+      <scrollpane id="9d0fb">
+        <constraints>
+          <grid row="4" column="1" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="82444" class="javax.swing.JTextArea" binding="meaningsArea">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="18ab" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update"/>
+        </properties>
+      </component>
+      <component id="2950c" class="javax.swing.JButton" binding="removeButton">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove"/>
+        </properties>
+      </component>
+      <component id="fb5b5" class="javax.swing.JButton" binding="addButton">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="251d0" class="javax.swing.JButton" binding="queryButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Query"/>
+        </properties>
+      </component>
+      <scrollpane id="b5ca3">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="2"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c8cc8" class="javax.swing.JTextArea" binding="systemArea">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="a5d4a">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="83bac">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="e8217">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="fd172">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

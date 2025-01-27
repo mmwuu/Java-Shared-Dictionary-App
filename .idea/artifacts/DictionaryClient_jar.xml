@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DictionaryClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DictionaryClient_jar</output-path>
+    <root id="archive" name="DictionaryClient.jar">
+      <element id="module-output" name="Distributed Systems Project 1" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.10.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
