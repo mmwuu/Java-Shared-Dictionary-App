@@ -5,7 +5,6 @@
 
 package server;
 
-
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -29,7 +28,8 @@ public class DictionaryServer {
             port = Integer.parseInt(args[0]);
             filename = args[1];
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Error: Arguments should be of the form \"java - jar DictionaryServer.jar <port> <dictionary-file>\"");
+            System.out.println(
+                    "Error: Please refer to README for instructions how to run. If running jar, arguments should be of the form \"java -jar DictionaryServer.jar <port> <dictionary-file>\"");
             System.exit(-1);
         } catch (NumberFormatException e) {
             System.out.println("Invalid Port Number. Exiting...");
